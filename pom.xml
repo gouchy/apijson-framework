@@ -3,9 +3,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>apijson.framework</groupId>
+	<groupId>com.github.gouchy</groupId>
 	<artifactId>apijson-framework</artifactId>
-	<version>6.1.0</version>
+	<version>6.1.0_1</version>
 	<packaging>jar</packaging>
 
 	<name>APIJSONFramework</name>
@@ -32,9 +32,9 @@
 
 		<!-- 可使用 libs 目录的 apijson-orm.jar 来替代，两种方式二选一 -->
 		<dependency>
-			<groupId>com.github.Tencent</groupId>
+			<groupId>com.github.gouchy</groupId>
 			<artifactId>APIJSON</artifactId>
-			<version>6.1.0</version>
+			<version>[6.1,6.2)</version>
 		</dependency>
 
 		<!-- 数据库 JDBC 驱动 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
