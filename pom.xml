@@ -5,7 +5,7 @@
 
 	<groupId>com.github.gouchy</groupId>
 	<artifactId>apijson-framework</artifactId>
-	<version>6.1.0_1</version>
+	<version>6.1.2</version>
 	<packaging>jar</packaging>
 
 	<name>APIJSONFramework</name>

@@ -205,7 +205,7 @@ public class APIJSONFunctionParser extends AbstractFunctionParser {
         }   // [] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-		JSONObject response = creator.createParser().setMethod(GET).setNeedVerify(true).parseResponse(request);
+		JSONObject response = creator.createParser().setMethod(GET).setNeedVerify(false).parseResponse(request);
 		if (JSONResponse.isSuccess(response) == false) {
 			onServerError("\n\n\n\n\n !!!! 查询远程函数异常 !!!\n" + response.getString(JSONResponse.KEY_MSG) + "\n\n\n\n\n", shutdownWhenServerError);
 		}
